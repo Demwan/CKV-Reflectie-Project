@@ -1,0 +1,276 @@
+.react-draggable {
+  user-select: none !important;
+  position: fixed;
+  z-index: 2147483645 !important
+}
+
+.react-draggable-dragging {
+  z-index: 2000000000000 !important;
+  user-select: none !important;
+  cursor: move
+}
+
+.dragging-overlay {
+  z-index: 1000 !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: transparent !important
+}
+
+@keyframes hide-toolbar {
+  from {
+    opacity: 1;
+    display: block;
+    transform: scale(1)
+  }
+
+  to {
+    opacity: 0;
+    display: none;
+    transform: scale(0)
+  }
+}
+
+@keyframes show-toolbar {
+  from {
+    opacity: 0;
+    display: none;
+    transform: scale(0)
+  }
+
+  to {
+    opacity: 1;
+    display: block;
+    transform: scale(1)
+  }
+}
+
+.hide-toolbar {
+  animation: hide-toolbar 0.3s forwards !important
+}
+
+.show-toolbar {
+  animation: show-toolbar 0.3s forwards !important
+}
+
+.react-draggable {
+  user-select: none !important;
+  position: fixed
+}
+
+.react-draggable-dragging {
+  z-index: 2000000000000 !important;
+  user-select: none !important;
+  cursor: move
+}
+
+.dragging-overlay {
+  z-index: 1000 !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: transparent !important
+}
+
+@keyframes hide-toolbar {
+  from {
+    opacity: 1;
+    display: block;
+    transform: scale(1)
+  }
+
+  to {
+    opacity: 0;
+    display: none;
+    transform: scale(0)
+  }
+}
+
+@keyframes show-toolbar {
+  from {
+    opacity: 0;
+    display: none;
+    transform: scale(0)
+  }
+
+  to {
+    opacity: 1;
+    display: block;
+    transform: scale(1)
+  }
+}
+
+.hide-toolbar {
+  animation: hide-toolbar 0.3s forwards !important
+}
+
+.show-toolbar {
+  animation: show-toolbar 0.3s forwards !important
+}
+
+
+:root:root:root:root:root #intowords,
+:root:root:root:root:root .root-container,
+:root:root:root:root:root #intowords_overlays,
+:root:root:root:root:root #toolbarOverlay_vitec,
+:root:root:root:root:root #suggestionOverlay_vitec,
+:root:root:root:root:root #dictionaryOverlay_vitec,
+:root:root:root:root:root #itw-dictionary-search-button,
+:root:root:root:root:root #itw-error-notification,
+:root:root:root:root:root #internal-error-list-container,
+:root:root:root:root:root #internal-error-list,
+:root:root:root:root:root #dictionary-search-button-container,
+:root:root:root:root:root #intowords {
+  position: fixed !important;
+  top: 0px !important;
+  left: 0px !important;
+  z-index: 2147483647 !important;
+  padding: 0px !important;
+  margin: 0px !important
+}
+
+:root:root:root:root:root .itw-extension-right {
+  float: right
+}
+
+:root:root:root:root:root .itw-extension-left {
+  float: left
+}
+
+:root:root:root:root:root .itw-extension-crosshairs {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 2147483645
+}
+
+:root:root:root:root:root .itw-extension-crosshairs.hidden {
+  display: none
+}
+
+:root:root:root:root:root .itw-extension-crosshairs::before,
+:root:root:root:root:root .itw-extension-crosshairs::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border: none !important;
+  border-image: none !important
+}
+
+:root:root:root:root:root .itw-extension-crosshairs::before {
+  left: -100%;
+  top: -100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important
+}
+
+:root:root:root:root:root .itw-extension-crosshairs::after {
+  left: 0px;
+  top: 0px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.3) !important
+}
+
+:root:root:root:root:root .itw-extension-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+:root:root:root:root:root .itw-extension-overlay.highlighting {
+  background: none;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-style: solid
+}
+
+:root:root:root:root:root .itw-extension-temp-engineIcon {
+  padding-right: 10px;
+  height: 24px;
+  width: 24px;
+  float: left
+}
+
+:root:root:root:root:root .itw-extension-temp-toolIcon {
+  height: 32px
+}
+
+:root:root:root:root:root .itw-extension-temp-btn-wrapper {
+  padding-left: 13px;
+  padding-right: 7px
+}
+
+:root:root:root:root:root .itw-extension-temp-logout {
+  margin-top: -15px
+}
+
+:root:root:root:root:root .itw-extension-temp-button {
+  background-color: #ffffff;
+  border: none;
+  color: #7b7b7b;
+  padding: 10px 30px 6px 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ebebeb;
+  width: 190px
+}
+
+:root:root:root:root:root .itw-extension-temp-button:hover {
+  color: #06acf8
+}
+
+:root:root:root:root:root .itw-extension-temp-button-toolbar {
+  background-color: #ffffff;
+  border: none;
+  color: #7b7b7b;
+  text-decoration: none;
+  width: 50px;
+  height: 50px
+}
+
+:root:root:root:root:root .itw-extension-temp-button-toolbar:hover {
+  color: #06acf8
+}
+
+:root:root:root:root:root .itw-extension-semi {
+  margin-right: 1px
+}
+
+:root:root:root:root:root input::-webkit-outer-spin-button,
+:root:root:root:root:root input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0
+}
+
+:root:root:root:root:root #intowords ::-webkit-scrollbar {
+  width: 6px
+}
+
+:root:root:root:root:root #intowords ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px transparent;
+  -moz-box-shadow: inset 0 0 3px transparent;
+  -webkit-box-shadow: inset 0 0 3px transparent;
+  -webkit-border-radius: 10px;
+  border-radius: 10px
+}
+
+:root:root:root:root:root #intowords ::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 3px rgba(31, 31, 31, 0.5);
+  -moz-box-shadow: inset 0 0 3px rgba(31, 31, 31, 0.5);
+  -webkit-box-shadow: inset 0 0 3px rgba(31, 31, 31, 0.5);
+  background-color: #f4f8f9;
+  -webkit-border-radius: 10px;
+  border-radius: 10px
+}
